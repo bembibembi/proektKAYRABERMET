@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FB9643C62949B24A00DE0AA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643C52949B24A00DE0AA9 /* main.swift */; };
+		FB9643CD2949B29B00DE0AA9 /* ORGONIZATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643CC2949B29B00DE0AA9 /* ORGONIZATION.swift */; };
+		FB9643CF2949B2DC00DE0AA9 /* DeliveryProtocoli.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643CE2949B2DC00DE0AA9 /* DeliveryProtocoli.swift */; };
+		FB9643D12949B32C00DE0AA9 /* DeliveryService..swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643D02949B32C00DE0AA9 /* DeliveryService..swift */; };
+		FB9643D32949B36700DE0AA9 /* PRODUCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643D22949B36700DE0AA9 /* PRODUCT.swift */; };
+		FB9643D52949B38900DE0AA9 /* CLIENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643D42949B38900DE0AA9 /* CLIENT.swift */; };
+		FB9643D72949B3A500DE0AA9 /* STOCK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9643D62949B3A500DE0AA9 /* STOCK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		FB9643C22949B24A00DE0AA9 /* proektKAYRABERMET */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proektKAYRABERMET; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9643C52949B24A00DE0AA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB9643CC2949B29B00DE0AA9 /* ORGONIZATION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORGONIZATION.swift; sourceTree = "<group>"; };
+		FB9643CE2949B2DC00DE0AA9 /* DeliveryProtocoli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryProtocoli.swift; sourceTree = "<group>"; };
+		FB9643D02949B32C00DE0AA9 /* DeliveryService..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryService..swift; sourceTree = "<group>"; };
+		FB9643D22949B36700DE0AA9 /* PRODUCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRODUCT.swift; sourceTree = "<group>"; };
+		FB9643D42949B38900DE0AA9 /* CLIENT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIENT.swift; sourceTree = "<group>"; };
+		FB9643D62949B3A500DE0AA9 /* STOCK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STOCK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				FB9643C42949B24A00DE0AA9 /* proektKAYRABERMET */,
-				FB9643C32949B24A00DE0AA9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,12 +63,20 @@
 				FB9643C22949B24A00DE0AA9 /* proektKAYRABERMET */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FB9643C42949B24A00DE0AA9 /* proektKAYRABERMET */ = {
 			isa = PBXGroup;
 			children = (
+				FB9643C32949B24A00DE0AA9 /* Products */,
 				FB9643C52949B24A00DE0AA9 /* main.swift */,
+				FB9643CC2949B29B00DE0AA9 /* ORGONIZATION.swift */,
+				FB9643CE2949B2DC00DE0AA9 /* DeliveryProtocoli.swift */,
+				FB9643D02949B32C00DE0AA9 /* DeliveryService..swift */,
+				FB9643D22949B36700DE0AA9 /* PRODUCT.swift */,
+				FB9643D42949B38900DE0AA9 /* CLIENT.swift */,
+				FB9643D62949B3A500DE0AA9 /* STOCK.swift */,
 			);
 			path = proektKAYRABERMET;
 			sourceTree = "<group>";
@@ -119,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9643D52949B38900DE0AA9 /* CLIENT.swift in Sources */,
+				FB9643D12949B32C00DE0AA9 /* DeliveryService..swift in Sources */,
+				FB9643CD2949B29B00DE0AA9 /* ORGONIZATION.swift in Sources */,
 				FB9643C62949B24A00DE0AA9 /* main.swift in Sources */,
+				FB9643D72949B3A500DE0AA9 /* STOCK.swift in Sources */,
+				FB9643CF2949B2DC00DE0AA9 /* DeliveryProtocoli.swift in Sources */,
+				FB9643D32949B36700DE0AA9 /* PRODUCT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
